@@ -2,14 +2,11 @@ import React from "react";
 import "../assets/styles/Main.scss";
 import reactImg from "../assets/static/react.png";
 
-const HolaMundo = () => {
+export default function HolaMundo() {
   return (
     <div className="container">
        <img src={reactImg} alt="imagen de react" />
-      <h1>Hola mundo</h1>
-     
+      <h1>Hola mundo</h1>     
     </div>
   );
 };
-
-export default HolaMundo;
